@@ -1,0 +1,12 @@
+<body>
+<h2>Edit Item</h2>
+
+<form action="/inventory/<%= @i %>/update" method="POST">
+  <p>Name: <input type="text" name="name" value="<%= @item[:name] %>"></p>
+  <p>Quantity: <input type="text" name="phone" value="<%= @item[:quantity] %>"></p>
+  <p>Bricks: <input type="text" name="email" value="<%= @item[:bricks] %>"></p>
+  <p>ID: <input type="text" name="email" value="<%= @item[:id] %>"></p>
+  <input type="submit" value="Update">
+  <button><a href="/inventory/<%= @i %>">Cancel</a></button>
+</form>
+</body>

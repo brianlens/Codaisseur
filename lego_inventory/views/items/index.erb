@@ -1,0 +1,14 @@
+<center>
+<% @item.each_with_index do |item, i| %>
+
+  <ul>
+  <h3><a href = "/inventory/ <%=i%>"><%= item[:name]%></a></h3>
+  </ul>
+<%end%>
+
+<br>
+<br>
+ <h3><a href="/inventory/new">[New Item]</a></h3>
+<br>
+<br>
+</center>

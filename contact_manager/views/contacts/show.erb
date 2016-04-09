@@ -1,0 +1,10 @@
+<body><center>
+<h3 class="flex-item"><%= @contact[:name] %></h3>
+<p class="flex-item"><%= @contact[:phone] %></p>
+<p class="flex-item"><%= @contact[:email] %></p>
+
+<br>
+<a href="/contacts/<%= @i%>/edit">Edit</a>
+<a href="/contacts/<%= @i %>/delete">[Delete]</a>
+<a href="/contacts">[Index]</a>
+</body></center>

@@ -1,0 +1,20 @@
+<body>
+<center>
+<% @contacts.each_with_index do |contact, i| %>
+
+
+  <h3 class="flex-item2"><a href = "/contacts/ <%=i%>"><%= contact[:name]%></a></h3>
+  
+  </ul>
+<%end%>
+
+<br>
+<br>
+
+<h3 class= "flex-item"><a href="/contacts/new">[New Contact]</a></h3>
+
+<br>
+<br>
+<p>Search: <input type="text" name="name"></p>
+</center>
+</body>

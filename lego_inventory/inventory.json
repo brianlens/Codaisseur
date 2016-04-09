@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Star Wars",
+    "quantity": 5,
+    "id": 1,
+    "bricks": 8600
+  },
+  {
+    "name": "Police Station",
+    "quantity": 8,
+    "id": 2,
+    "bricks": 900
+  },
+  {
+    "name": "City Tower",
+    "quantity": 12,
+    "id": 3,
+    "bricks": 5600
+  },
+  {
+    "name": "Train Station",
+    "quantity": 3,
+    "id": 4,
+    "bricks": 1300
+  },
+  {
+    "name": "Fire Station",
+    "quantity": 15,
+    "id": 5,
+    "bricks": 900
+  },
+  {
+    "name": "Park",
+    "quantity": 19,
+    "id": 6,
+    "bricks": 850
+  },
+  {
+    "name": "Car Park",
+    "quantity": 14,
+    "id": 7,
+    "bricks": 1000
+  },
+  {
+    "name": "Garage",
+    "quantity": 21,
+    "id": 8,
+    "bricks": 1500
+  },
+  {
+    "name": "School",
+    "quantity": 11,
+    "id": 9,
+    "bricks": 3500
+  },
+  {
+    "name": "University",
+    "quantity": 17,
+    "id": 10,
+    "bricks": 7000
+  },
+  {
+    "name": "Skyscraper",
+    "quantity": 13,
+    "id": 11,
+    "bricks": 10000
+  },
+  {
+    "name": "Theme Park",
+    "quantity": 8,
+    "id": 12,
+    "bricks": 5600
+  },
+  {
+    "name": "Airport",
+    "quantity": 14,
+    "id": 13,
+    "bricks": 3500
+  },
+
+]
